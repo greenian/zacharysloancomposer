@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/headshot-favicon.ico">
+    <title>Zachary Sloan's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Varta:wght@400;700;800&display=swap" rel="stylesheet">  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body style=" ">
+    <nav class="py-1 bg-body-tertiary  navbar-dark bg-dark ">
+        <div class="container d-flex flex-wrap ">
+            <ul class="nav me-auto ">
+                <li class="nav-item navbar-nav ">
+                    <a class=" nav-link link-body-emphasis px-2" href="index.html"style="font-family: var(--display-font); font-size: 1.5rem;">Zachary Sloan</a>
+                </li>
+            </ul>
+            <ul class="nav justify-content-center align-items-center">
+                <li class="nav-item navbar-nav">
+                    <a class="nav-link link-body-emphasis px-2" href="#" rel="">Bio</a>
+                </li>
+                <li class="nav-item navbar-nav">
+                    <a class="nav-link link-body-emphasis px-2" href="pages/portfolio.html"  rel="noopener noreferrer">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+  <main class="shell" style="">
+    <header class="masthead">
+        <!--<div class="links">
+        <a href="https://www.instagram.com/zachary_yale_sloan/" target="_blank" rel="noopener noreferrer" class="fab fa-instagram"></a>
+        <a href="files/Zachary Sloan - Resume - 7-2-2026.docx.pdf" target="_blank" rel="noopener noreferrer" class="fa fa-clipboard"></a>
+        </div>-->
+        <div class="hero-grid">
+        
+        <div>
+            <h1 class="hero-header">Zachary Sloan</h1>
+            <p class="lede">Zachary Sloan is a composer, lyricist, bookwriter, and orchestrator. His musicals include The Time the Axeman Came to Town (Book, Music & Lyrics), the mini-musical The Next Top Cryptid (Music & Lyrics, additional Book), co-written with librettist Marshall Frey and selected as part of the 2025 Pocket Opera Project at Tri-Cities Opera (presented in partnership with WSKG Television); Astorville!, (Book, Music & Lyrics) an original collaboration with Cameron Kolpak first conceived in Berklee College of Music’s Writing and Production for Musical Theatre (WPMT) graduate program and featured in the 2026 WPMT Cohort Showcase at Power Station Studios in June 2026; and His Girl Friday (Music & Lyrics), a musical adaptation of the 1940 film (named to AFI’s list of the best American comedies) written in collaboration with Danielle Moore. His Girl Friday will receive a full production at Creative Cauldron in their 2027-2028 season and The Time the Axeman Came to Town will receive a developmental reading at the Le Petit Theater in New Orleans. Zachary has written original works for multiple ensembles including Hub New Music, the Momenta Quartet, and the Society for New Music, and his songs have been featured in Sparks & Wiry Cries’ songSLAM at National Sawdust and Punch Up! Theatre Co.’s Musical Theater Fight Club. He most recently assisted in orchestrating a musical theater medley for the New York City Center Youth Orchestra, which performed at the 2026 Roger Rees Awards. Zachary’s music draws on a wide range of styles, from the jazz sounds of the Great American Songbook to the Latin-American grooves of contemporary big bands. His work focuses on using the craft of musical theater to inform large audiences about the wide variety of topics he is interested in, from the whimsy of theme parks to early 1900s jazz or the dangers of generative AI. </p>
+        </div>
+
+        <figure class="portfolio-art">
+            <img src="img/Headshot.jpg" alt="Zachary Sloan headshot">
+        </figure>
+        </div>
+    </header>
+    <!--<div class="row">
+        <div class="col-md-6 mb-5">
+            <h1>Astorville!</h1>
+            <p>Book, Music and Lyrics by Cameron Kolpak and Zachary Sloan</p>
+            <p class="lede">Astorville follows Greg, who works alone in the basement archives of the iconic Astorville theme park. When new leadership haphazardly rebrands the park with intellectual property, Greg sets out to prove the real heart of the park lies in its history and its community.
+            </p>
+        </div>
+        <audio id="myAudio" ontimeupdate="onTimeUpdate()">
+            <source id="source-audio" src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="col-md-6 d-flex justify-content-md-end">
+            <div class="player-ctn">
+            <div class="infos-ctn">
+                <div class="timer">00:00</div>
+                <div class="title"></div>
+                <div class="duration">00:00</div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                </div>
+            </div>
+            
+            <div class="btn-ctn">
+                <div class="btn-action first-btn" onclick="previous()">
+                    <div id="btn-faws-back">
+                    <i class='fas fa-step-backward'></i>
+                    </div>
+                </div>
+                <div class="btn-action" onclick="rewind()">
+                    <div id="btn-faws-rewind">
+                    <i class='fas fa-backward'></i>
+                    </div>
+                </div>
+                <div class="btn-action" onclick="toggleAudio()">
+                    <div id="btn-faws-play-pause">
+                    <i class='fas fa-play' id="icon-play"></i>
+                    <i class='fas fa-pause' id="icon-pause" style="display: none"></i>
+                    </div>
+                </div>
+                <div class="btn-play" onclick="forward()">
+                    <div id="btn-faws-forward">
+                    <i class='fas fa-forward'></i>
+                    </div>
+                </div>
+                <div class="btn-action" onclick="next()">
+                    <div id="btn-faws-next">
+                    <i class='fas fa-step-forward'></i>
+                    </div>
+                </div>
+                <div class="btn-mute" id="toggleMute" onclick="toggleMute()">
+                    <div id="btn-faws-volume">
+                    <i id="icon-vol-up" class='fas fa-volume-up'></i>
+                    <i id="icon-vol-mute" class='fas fa-volume-mute' style="display: none"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist-ctn"></div>
+            </div>
+
+        </div>
+    </div>-->
+</div>
+
+        
+        
+  </main>
+  <footer class="footer mt-5 bg-dark text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item"><a class="link-light social-link rounded-circle" target="_blank" href="https://www.instagram.com/zachary_yale_sloan/"><i class="icon-social-instagram"></i></a></li>
+                <li class="list-inline-item"><a class="link-light social-link rounded-circle" target="_blank" href="files/Zachary Sloan - Resume - 7-2-2026.docx.pdf"><i class="icon-notebook"></i></a></li>
+            </ul>
+            <p class="text-muted mb-0 small">Copyright © Ian Purvis, Zachary Sloan 2026</p>
+        </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
+    </footer>
+  
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js" integrity="sha512-YuCuk5nNmVIUfKROKeV3fpZZ5Vt9vsnq8nExr5JwEJc2r1YDVmDfujcq373eHIzjqdxwCzoKpxngIaAdRUyg3A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script>
+        function createTrackItem(index,name,duration){
+            var trackItem = document.createElement('div');
+            trackItem.setAttribute("class", "playlist-track-ctn");
+            trackItem.setAttribute("id", "ptc-"+index);
+            trackItem.setAttribute("data-index", index);
+            document.querySelector(".playlist-ctn").appendChild(trackItem);
+
+            var playBtnItem = document.createElement('div');
+            playBtnItem.setAttribute("class", "playlist-btn-play");
+            playBtnItem.setAttribute("id", "pbp-"+index);
+            document.querySelector("#ptc-"+index).appendChild(playBtnItem);
+
+            var btnImg = document.createElement('i');
+            btnImg.setAttribute("class", "fas fa-play");
+            btnImg.setAttribute("height", "40");
+            btnImg.setAttribute("width", "40");
+            btnImg.setAttribute("id", "p-img-"+index);
+            document.querySelector("#pbp-"+index).appendChild(btnImg);
+
+            var trackInfoItem = document.createElement('div');
+            trackInfoItem.setAttribute("class", "playlist-info-track");
+            trackInfoItem.innerHTML = name
+            document.querySelector("#ptc-"+index).appendChild(trackInfoItem);
+
+            var trackDurationItem = document.createElement('div');
+            trackDurationItem.setAttribute("class", "playlist-duration");
+            trackDurationItem.innerHTML = duration
+            document.querySelector("#ptc-"+index).appendChild(trackDurationItem);
+        }
+
+        var listAudio = [
+            {
+            name:"I.P.",
+            file:"songs\\Astorville\\I.P. - Astorville! - Demo.mp3",
+            duration:"3:10"
+            },
+            {
+            name:"The Astorville Revue",
+            file:"songs\\Astorville\\The Astorville Revue - Astorville! - Demo.mp3",
+            duration:"2:55"
+            },
+        ]
+
+        for (var i = 0; i < listAudio.length; i++) {
+            createTrackItem(i,listAudio[i].name,listAudio[i].duration);
+        }
+        var indexAudio = 0;
+
+        function loadNewTrack(index){
+            var player = document.querySelector('#source-audio')
+            player.src = listAudio[index].file
+            document.querySelector('.title').innerHTML = listAudio[index].name
+            this.currentAudio = document.getElementById("myAudio");
+            this.currentAudio.load()
+            this.toggleAudio()
+            this.updateStylePlaylist(this.indexAudio,index)
+            this.indexAudio = index;
+        }
+
+        var playListItems = document.querySelectorAll(".playlist-track-ctn");
+
+        for (let i = 0; i < playListItems.length; i++){
+            playListItems[i].addEventListener("click", getClickedElement.bind(this));
+        }
+
+        function getClickedElement(event) {
+            for (let i = 0; i < playListItems.length; i++){
+            if(playListItems[i] == event.target){
+                var clickedIndex = event.target.getAttribute("data-index")
+                if (clickedIndex == this.indexAudio ) { // alert('Same audio');
+                    this.toggleAudio()
+                }else{
+                    loadNewTrack(clickedIndex);
+                }
+            }
+            }
+        }
+
+        document.querySelector('#source-audio').src = listAudio[indexAudio].file
+        document.querySelector('.title').innerHTML = listAudio[indexAudio].name
+
+
+        var currentAudio = document.getElementById("myAudio");
+
+        currentAudio.load()
+        
+        currentAudio.onloadedmetadata = function() {
+                document.getElementsByClassName('duration')[0].innerHTML = this.getMinutes(this.currentAudio.duration)
+        }.bind(this);
+
+        var interval1;
+
+        function toggleAudio() {
+
+            if (this.currentAudio.paused) {
+            document.querySelector('#icon-play').style.display = 'none';
+            document.querySelector('#icon-pause').style.display = 'block';
+            document.querySelector('#ptc-'+this.indexAudio).classList.add("active-track");
+            this.playToPause(this.indexAudio)
+            this.currentAudio.play();
+            }else{
+            document.querySelector('#icon-play').style.display = 'block';
+            document.querySelector('#icon-pause').style.display = 'none';
+            this.pauseToPlay(this.indexAudio)
+            this.currentAudio.pause();
+            }
+        }
+
+        function pauseAudio() {
+            this.currentAudio.pause();
+            clearInterval(interval1);
+        }
+
+        var timer = document.getElementsByClassName('timer')[0]
+
+        var barProgress = document.getElementById("myBar");
+
+
+        var width = 0;
+
+        function onTimeUpdate() {
+            var t = this.currentAudio.currentTime
+            timer.innerHTML = this.getMinutes(t);
+            this.setBarProgress();
+            if (this.currentAudio.ended) {
+            document.querySelector('#icon-play').style.display = 'block';
+            document.querySelector('#icon-pause').style.display = 'none';
+            this.pauseToPlay(this.indexAudio)
+            if (this.indexAudio < listAudio.length-1) {
+                var index = parseInt(this.indexAudio)+1
+                this.loadNewTrack(index)
+            }
+            }
+        }
+
+
+        function setBarProgress(){
+            var progress = (this.currentAudio.currentTime/this.currentAudio.duration)*100;
+            document.getElementById("myBar").style.width = progress + "%";
+        }
+
+
+        function getMinutes(t){
+            var min = parseInt(parseInt(t)/60);
+            var sec = parseInt(t%60);
+            if (sec < 10) {
+            sec = "0"+sec
+            }
+            if (min < 10) {
+            min = "0"+min
+            }
+            return min+":"+sec
+        }
+
+        var progressbar = document.querySelector('#myProgress')
+        progressbar.addEventListener("click", seek.bind(this));
+
+
+        function seek(event) {
+            var percent = event.offsetX / progressbar.offsetWidth;
+            this.currentAudio.currentTime = percent * this.currentAudio.duration;
+            barProgress.style.width = percent*100 + "%";
+        }
+
+        function forward(){
+            this.currentAudio.currentTime = this.currentAudio.currentTime + 5
+            this.setBarProgress();
+        }
+
+        function rewind(){
+            this.currentAudio.currentTime = this.currentAudio.currentTime - 5
+            this.setBarProgress();
+        }
+
+
+        function next(){
+            if (this.indexAudio <listAudio.length-1) {
+                var oldIndex = this.indexAudio
+                this.indexAudio++;
+                updateStylePlaylist(oldIndex,this.indexAudio)
+                this.loadNewTrack(this.indexAudio);
+            }
+        }
+
+        function previous(){
+            if (this.indexAudio>0) {
+                var oldIndex = this.indexAudio
+                this.indexAudio--;
+                updateStylePlaylist(oldIndex,this.indexAudio)
+                this.loadNewTrack(this.indexAudio);
+            }
+        }
+
+        function updateStylePlaylist(oldIndex,newIndex){
+            document.querySelector('#ptc-'+oldIndex).classList.remove("active-track");
+            this.pauseToPlay(oldIndex);
+            document.querySelector('#ptc-'+newIndex).classList.add("active-track");
+            this.playToPause(newIndex)
+        }
+
+        function playToPause(index){
+            var ele = document.querySelector('#p-img-'+index)
+            ele.classList.remove("fa-play");
+            ele.classList.add("fa-pause");
+        }
+
+        function pauseToPlay(index){
+            var ele = document.querySelector('#p-img-'+index)
+            ele.classList.remove("fa-pause");
+            ele.classList.add("fa-play");
+        }
+
+
+        function toggleMute(){
+            var btnMute = document.querySelector('#toggleMute');
+            var volUp = document.querySelector('#icon-vol-up');
+            var volMute = document.querySelector('#icon-vol-mute');
+            if (this.currentAudio.muted == false) {
+            this.currentAudio.muted = true
+            volUp.style.display = "none"
+            volMute.style.display = "block"
+            }else{
+            this.currentAudio.muted = false
+            volMute.style.display = "none"
+            volUp.style.display = "block"
+            }
+        }
+  </script>
+  <script>
+    $(document).on('click', '.js-modal-trigger', function (e) {
+        e.preventDefault();
+        var targetSelector = $(this).attr('href'); // e.g. "#panel-1"
+
+        // close any panel that's already open, then open the target
+        $('.modal-panel').removeClass('is-open');
+        $(targetSelector).addClass('is-open');
+
+        // scroll back up to the top of the stage so the pull-down is visible
+        $('html, body').animate({
+        scrollTop: parseInt($('#top').offset().top)
+        }, 400);
+    });
+
+    $(document).on('click', '.js-modal-close', function (e) {
+        e.preventDefault();
+        $(this).closest('.modal-panel').removeClass('is-open');
+    });
+  </script>
+  <!--<script>
+    const boxes = document.querySelectorAll(".box");
+
+    const checkBoxes = () => {
+    const triggerBottom = (window.innerHeight / 5) * 4;
+    boxes.forEach((box) => {
+        const boxTop = box.getBoundingClientRect().top;
+        if (boxTop < triggerBottom) box.classList.add("show");
+        else box.classList.remove("show");
+    });
+    };
+
+    window.addEventListener("scroll", checkBoxes);
+    checkBoxes();
+  </script>-->
+</body>
+</html>

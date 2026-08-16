@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "projects"
+    label: "Portfolio Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{fields.slug}}"
+    fields:
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "Lowercase, no spaces, e.g. 'axeman'. Do not change after the project is published, or things might break."
+        pattern: ['^[a-z0-9-]+$', "Lowercase letters, numbers, and hyphens only"]
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Credit Line", name: "credit", widget: "string" }
+      - { label: "Synopsis", name: "synopsis", widget: "text", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - { label: "Thumbnail Brightness (0-1)", name: "brightness", widget: "number", default: 0.7 }
+      - label: "Media Type"
+        name: "type"
+        widget: "select"
+        options: ["audio", "video", "pdf", "none"]
+      - label: "Modal Layout"
+        name: "layout"
+        widget: "select"
+        options:
+          - { label: "Synopsis + Media (side by side)", value: "split" }
+          - { label: "Full-width Media (no synopsis)", value: "full" }
+        default: "split"
+      - label: "Playlist"
+        name: "playlist"
+        widget: "list"
+        allow_add: true
+        collapsed: true
+        required: false
+        fields:
+          - { label: "Track Name", name: "name", widget: "string" }
+          - { label: "Audio File", name: "file", widget: "file" }
+          - { label: "Duration", name: "duration", widget: "string", hint: "e.g. 3:10" }
+      - { label: "Video File", name: "video", widget: "file", required: false }
+      - { label: "PDF/Viewbook", name: "pdf", widget: "file", required: false }
+      - { label: "Order", name: "order", widget: "number", default: 0 }

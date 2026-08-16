@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "axeman",
+    "title": "The Time the Axeman Came to Town",
+    "credit": "Book, Music and Lyrics by Zachary Sloan",
+    "synopsis": "Based on true events, The Time the Axeman Came to Town follows the Cortimiglias and the Jordanos, two Sicilian-immigrant families in late 1910s Louisiana whose lives are turned upside down when two-year-old Mary Cortimiglia is murdered by a serial killer.",
+    "thumbnail": "../img/Axeman.jpg",
+    "brightness": 0.7,
+    "type": "audio",
+    "layout": "split",
+    "playlist": [
+      { "name": "A Funeral in New Orleans (Demo)", "file": "../songs/The Time the Axeman Came to Town/1b. A Funeral In New Orleans (Demo).mp3", "duration": "5:20" },
+      { "name": "A Madman (Demo)", "file": "../songs/The Time the Axeman Came to Town/4 - A Madman (Demo).mp3", "duration": "4:13" },
+      { "name": "I Am the Axeman (Demo)", "file": "../songs/The Time the Axeman Came to Town/9 - I Am the Axeman (Demo).mp3", "duration": "3:20" },
+      { "name": "What Could Have Been (Demo)", "file": "../songs/The Time the Axeman Came to Town/14 - What Could Have Been (Demo).m4a", "duration": "4:45" }
+    ]
+  },
+  {
+    "slug": "astorville",
+    "title": "Astorville!",
+    "credit": "Book, Music and Lyrics by Cameron Kolpak and Zachary Sloan",
+    "synopsis": "Astorville follows Greg, who works alone in the basement archives of the iconic Astorville theme park. When new leadership haphazardly rebrands the park with intellectual property, Greg sets out to prove the real heart of the park lies in its history and its community.",
+    "thumbnail": "../img/Astorville Logo.png",
+    "brightness": 0.5,
+    "type": "audio",
+    "layout": "split",
+    "playlist": [
+      { "name": "I.P. (Demo)", "file": "../songs/Astorville/I.P. - Astorville! - Demo.mp3", "duration": "3:10" },
+      { "name": "The Astorville Revue (Demo)", "file": "../songs/Astorville/The Astorville Revue - Astorville! - Demo.mp3", "duration": "2:55" }
+    ]
+  },
+  {
+    "slug": "hgf",
+    "title": "His Girl Friday",
+    "credit": "Book by Danielle E. Moore, Music and Lyrics by Danielle E. Moore and Zachary Sloan",
+    "synopsis": "CHICAGO, 1940. When star-reporter Hildy Johnson attempts to leave her husband-editor Walter Burns and her coveted post at the paper for another man and a life without deadlines, Walter stalls to keep her from remarrying by dropping the story of the century in her lap: the politically contentious execution of accused murderer Earl Williams.",
+    "thumbnail": "../img/hgf.JPG",
+    "brightness": 0.7,
+    "type": "pdf",
+    "layout": "split",
+    "img": "../img/hgf1.png",
+    "pdf": "../files/His Girl Friday Viewbook Updated 7.11.26.pdf"
+  },
+  {
+    "slug": "cryptid",
+    "title": "The Next Top Cryptid",
+    "credit": "Book by Marshall Frey and Zachary Sloan, Music, Lyrics, and Orchestrations by Zachary Sloan",
+    "synopsis": "Debuted in May 2025 as part of Tri-Cities Opera's Pocket Opera Project in partnership with WSKG Television and Binghamton University, The Next Top Cryptid is a mini-musical that follows three cryptids as they compete on a gameshow to see which of them will be the Next Top Cryptid.",
+    "thumbnail": "../img/Pocket Opera Logo.jpg",
+    "brightness": 0.2,
+    "type": "audio",
+    "layout": "split",
+    "playlist": [
+      { "name": "The Next Top Cryptid (Live Recording)", "file": "../songs/The Next Top Cryptid/Sloan - Next Top Cryptid.mp3", "duration": "13:12" }
+    ]
+  },
+  {
+    "slug": "songslam",
+    "title": "songSLAM NYC 2025",
+    "credit": "Music and Lyrics by Zachary Sloan",
+    "thumbnail": "../img/songslam.jpg",
+    "brightness": 0.7,
+    "type": "video",
+    "layout": "full",
+    "video": "../songs/SongSlam/Song Slam Performance.mp4"
+  }
+]
