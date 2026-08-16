@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        // If an identity token lands on the root domain, forward it straight to /admin/
+        if (window.location.hash && window.location.hash.includes('_token=')) {
+            window.location.href = '/admin/' + window.location.hash;
+        }
+    </script>
     <meta charset="UTF-8">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="img/headshot-favicon.ico">
